@@ -8,6 +8,8 @@ This project now uses the [DotNetZip Library](http://dotnetzip.codeplex.com) for
 
 Requires .NET Framework 2.0 or higher.
 
+You can use the executable at the command line, passing the bitmap as a parameter, i.e. "ocr_gui.exe [image file]"
+
 See the [project home page](http://hsc.usc.edu/~phillimc/doseocr/index.html) for further details.
 
 ![alt text](http://hsc.usc.edu/~phillimc/doseocr/screenshot.png "Screenshot of CT Dose OCR")
