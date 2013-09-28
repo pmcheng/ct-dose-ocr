@@ -172,6 +172,7 @@ namespace ocr_gui
                 fonts.Add(new LetterFont("chars_toshiba_med", "TOSHIBA_MED", 4, 13));
                 fonts.Add(new LetterFont("chars_toshiba_small", "TOSHIBA_SMALL", 7, 14));
                 fonts.Add(new LetterFont("chars_ge", "GE", 4, 13));
+                fonts.Add(new LetterFont("chars_ge_large", "GE_LARGE", 4, 14));
                 fonts.Add(new LetterFont("chars_siemens", "SIEMENS", 4, 11));
                 fonts.Add(new LetterFont("chars_philips", "PHILIPS", 11, 14));
                 fonts.Add(new LetterFont("chars_philips_small", "PHILIPS_SMALL", 7, 9));
