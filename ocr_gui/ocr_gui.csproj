@@ -140,6 +140,6 @@
   -->
   <PropertyGroup>
     <PostBuildEvent>"$(ProgramFiles)\Microsoft\Ilmerge\Ilmerge.exe" /target:exe /out:"$(ProjectDir)bin\$(TargetFileName)" "$(TargetDir)$(TargetFileName)" "$(TargetDir)Ionic.zip.Reduced.dll"
-copy "$(TargetPath)" "C:\Documents and Settings\pmcheng\My Documents\Radiology USC\dose\"</PostBuildEvent>
+copy "$(ProjectDir)bin\$(TargetFileName)" "C:\Documents and Settings\pmcheng\My Documents\Radiology USC\dose\"</PostBuildEvent>
   </PropertyGroup>
 </Project>
